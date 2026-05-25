@@ -3,13 +3,9 @@ import time
 import Driver
 import discord
 import DeleteFlies
-# Uncomment line 6 and delete line 7
-# import DiscordToken 
-import DiscordTokenReal
+import DiscordToken 
 from discord.ext import commands
-# Uncomment line 11 and delete line 12
-# token = DiscordToken.token
-token = DiscordTokenReal.token
+token = DiscordToken.token
 
 prefix = '!'
 bot = commands.Bot(command_prefix=prefix, intents=discord.Intents.all())
